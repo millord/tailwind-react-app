@@ -27,8 +27,8 @@ const Main = () => {
                   >
                     <path
                       d="M18.9 19.7l-6.9 2-6.9-2L3.7 3h16.7c-.5 5.6-1 11.1-1.5 16.7zM19.4 4H4.8l1.3 14.9 5.9 1.7 5.9-1.7L19.4 4zM8.1 13.8h2V15l2 .7 2-.7.1-2.2H9.9l-.1-2h4.5l.1-2H7.7l-.1-2h9l-.2 3.9-.4 5.8-3.9 1.3-3.9-1.3-.1-2.7z"
-                      fill-rule="evenodd"
-                      clip-rule="evenodd"
+                      fillRule="evenodd"
+                      clipRule="evenodd"
                     />
                   </svg>
                 </div>
@@ -88,7 +88,7 @@ const Main = () => {
             method="post"
           >
             <div className="flex flex-col md:flex-row md:-mx-2">
-              <label for="first_name" className="sr-only">
+              <label htmlFor="first_name" className="sr-only">
                 First Name
               </label>
               <input
@@ -97,7 +97,7 @@ const Main = () => {
                 placeholder="First Name"
                 id="first_name"
               />
-              <label for="last_name" className="sr-only">
+              <label htmlFor="last_name" className="sr-only">
                 Last Name
               </label>
               <input
@@ -109,7 +109,7 @@ const Main = () => {
             </div>
             <div className="">
               <div className="flex flex-col md:flex-row md:-mx-2">
-                <label for="email" className="sr-only">
+                <label htmlFor="email" className="sr-only">
                   Email
                 </label>
                 <input
@@ -118,7 +118,7 @@ const Main = () => {
                   placeholder="johndoe@gmail.com"
                   id="email"
                 />
-                <label for="last_name" className="sr-only">
+                <label htmlFor="last_name" className="sr-only">
                   You Title
                 </label>
                 <input
