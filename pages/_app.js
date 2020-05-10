@@ -8,7 +8,7 @@
 // export default MyApp;
 
 import React from "react";
-import "../styles/index.css";
+import "../pages/components/styles.css";
 import App from "next/app";
 
 export default class TailwindApp extends App {
